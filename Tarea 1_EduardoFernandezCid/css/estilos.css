@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* estilos para la cabecera */
+header {
+  /* background: skyblue; */
+  background-color: rgb(161, 0, 0);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+#header-inner a:hover {
+  color: rgb(255, 255, 255);
+}
+/* Estilos para el cuerpo de la pagina */
+body {
+  font-family: sans-serif;
+  margin: 10% auto;
+}
+
+/*estilos para el contendor que tiene dentro el slider */
+#wrapper {
+  /* background: rgb(236, 6, 6); */
+  background: rgb(36, 101, 155);
+  max-width: 80%;
+  margin: 0% auto;
+}
+
+/*estilos para el contendor que tiene dentro el slider */
+#banner-wrapper {
+  max-width: 80%;
+  margin: 80px auto;
+  /* padding: 0 0 80px 0; */
+}
+
+/* Imagen del carrusel */
+#slider li img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* logo */
+header #logo img {
+  margin: 10px;
+  float: left;
+  width: 80px;
+}
+
+/* colores para el texto*/
+a {
+  color: #524c56;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* color dinamico para cuando pasemos por encima de texto*/
+a:hover {
+  color: #c3d7df;
+}
+
+/* Configura imagenes de la pagina */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+/*Ini configura la sesion de jugadores y columnas */
+.one-third-padding {
+  width: 30%;
+  float: left;
+  margin: 1% 1%;
+}
+
+.icon-wrap :hover {
+  color: #0d213f;
+}
+
+#menu-icon {
+  display: none;
+  font-size: 50px;
+}
+
+.one-third {
+  width: 30.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon-wrap {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  background-color: #a50000;
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.icon-wrap i {
+  text-align: center;
+  color: #ffffff;
+  font-size: 450%;
+  padding: 20%;
+}
+
+.left-col {
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%;
+}
+
+.clearfix-padding {
+  clear: both;
+  padding: 2%;
+}
+
+/*Fin configura la sesion de jugadores y columnas */
+
+/* Color tamaños y fuentes de las notas de los futbolistas o parrafos */
+p {
+  color: #ffffff;
+  font-size: 160%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+/* Color tamaños y fuentes de los titulos */
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* FOOTER!! */
+/* Configurar el color y el tamaño del footer */
+footer {
+  background: #1b1b1b;
+  width: 100%;
+  overflow: auto;
+}
+
+/* Configura la posición de los iconos del footer */
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  padding: 4%;
+}
+
+/* Configura la posición del menu del footer */
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+}
+
+/* alineación del menu del footer */
+.footer-nav {
+  text-align: right;
+}
+
+/* Color y tamaño de fuente del menu del footer */
+.footer-nav a {
+  font-size: 100%;
+  color: #686c6d;
+  font-weight: 100;
+}
+
+/* Color dinamico para el menu del footer, cuando nos posicionamos arriba*/
+.footer-nav a:hover {
+  color: #f5f5f5;
+}
+
+/* alineación del iconos del footer */
+.social li {
+  display: inline;
+}
+
+/* Color y tamaño de los iconos del footer */
+.social i {
+  font-size: 420%;
+  margin: 0%;
+  padding: 5%;
+  color: #686c6d;
+}
+
+/* Color dinamico para los iconos del footer, cuando nos posicionamos arriba*/
+.social i:hover {
+  color: #f5f5f5;
+}
+
+/* alineación, margen y Color de bordes del ultimo footer */
+footer.second {
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  margin: 0;
+  background-color: rgb(161, 0, 0);
+}
+
+/* alineación, tamaño y Color  del ultimo footer */
+footer.second p,
+.second a {
+  text-align: center;
+  color: #fff;
+  font-size: 100%;
+  line-height: 155%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    background: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #header-inner a:hover {
+    color: rgb(216, 37, 37);
+  }
+
+  /*estilos para el contendor que tiene dentro el slider */
+  #wrapper {
+    background: rgb(19, 6, 138);
+    max-width: 80%;
+    margin: 0% auto;
+  }
+
+  /*estilos para el contendor que tiene dentro el slider */
+  #banner-wrapper {
+    max-width: 80%;
+    margin: 80px auto;
+  }
+
+  /* Sesion videos Responsive para que salga hacia abajo y ocupe el 100% de la pantalla cada columna y video*/
+  .one-third {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .one-third-padding {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* Parrafos */
+  p {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: #acc1c9;
+  }
+
+  /* Footer */
+
+  .icon-text-text {
+    width: 100%;
+    float: center;
+    text-align: center;
+  }
+
+  .icon-text-icon {
+    width: 100%;
+    float: center;
+    text-align: center;
+  }
+
+  .icon-text-icon .footer-nav li {
+    display: center;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .icon-text-icon .footer-nav li a {
+    padding: 20px;
+  }
+
+  /* Footer */
+}
