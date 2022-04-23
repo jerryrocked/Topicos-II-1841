@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  background: red;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 auto;
+}
+.orden-portafolio{
+  display: inline-flex;
+    
+}
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+#banner-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+  background-color: red;
+}
+header{
+  background: red;
+  /*position: fixed;*/
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+header #logo img{
+  margin: 20px;
+  float: left;
+  width: 50px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: #c3d7df;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+nav{
+  float: right;
+  padding: 25px 20px 0px 0px;
+}
+#menu-icon{
+  display: none;
+  font-size: 50px;
+}
+ul {
+  list-style: none;
+}
+nav ul li {
+  font-size: 15;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+}
+.current{
+  color: white;
+}
+.one-third {
+  width: 30.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+.icon-wrap{
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  background-color: #6991ac;
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 0%;
+margin-bottom: 4%;
+}
+.icon-wrap i {
+  text-align: center;
+  color: #ffffff;
+  font-size: 450%;
+  padding: 20%;
+}
+.left-col{
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%;
+}
+.sidebar{
+  float: right;
+  margin: 0 auto;
+  width: 32%;
+  height: auto;
+  padding: 1%;
+}
+.one-third-padding {
+  width: 29%;
+  float: left;
+  margin: 1% 2%;
+}
+.clearfix-padding{
+  clear: both;
+  padding: 0.5%;
+}
+footer{
+  background: blue;
+  width: 100%;
+  overflow: auto;
+}
+.icon-text-icon{
+  float: left;
+  width: 20%;
+  width: 20%;
+  padding: 1%;
+}
+.icon-text-text{
+  float: left;
+  width: 60%;
+  padding: 1%;
+  font-size:
+}
+.footer-nav{
+  text-align: right;
+}
+.footer-nav a{
+  font-size: 120%;
+  color: greenyellow;
+  font-weight: 300;
+}
+.footer-nav a:hover{
+  color: greenyellow;
+}
+.social li{
+  display: inline;
+}
+.social i{
+  font-size: 200%;
+  float: right;
+  margin: 0%;
+  padding: 5% 3% 6% 10%;
+  color: #c3d7df;
+}
+.social i:hover{
+  color: #f5f5f5;
+}
+footer.second{
+  border-top: 1px solid #aadcd2;
+  text-align: center;
+  margin: 0;
+}
+footer.second p, .second a{
+  text-align: center;
+  color: #fff;
+  font-size: 120%;
+  line-height: 100%;
+padding: 1%;
+}
+p{
+  color: whitesmoke;
+  font-size: 100%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+h3{
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500 bold;
+  color: blue;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2{
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500 bold;
+  color: white;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){ /*Responsive a 600px trabajado en clases*/
+body{
+  background: blue;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.one-third {
+  margin: 10%;
+  width: 80%;
+}
+.one-third h3 {
+  font-weight: 600;
+}
+.left-col {
+  margin: 10%;
+  width: 80%;
+}
+.sidebar {
+  width: 80%;
+}
+.orden-portafolio{
+    flex-direction: column-reverse;
+}
+.one-third-padding {
+  margin: 10%;
+  width: 80%;
+}
+@media only screen and (max-width: 560px){ /*Responsive a 560px Surface Dou*/
+body{
+  background: rgb(95, 138, 133);
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+header {
+  background: skyblue;
+  /* position: fixed; */
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+.one-third {
+  margin: 10%;
+  width: 80%;
+}
+.one-third h3 {
+  font-weight: 600;
+}
+.left-col {
+  margin: 10%;
+  width: 80%;
+}
+.sidebar {
+  width: 80%;
+}
+.orden-portafolio{
+    flex-direction: column-reverse;
+}
+.one-third-padding {
+  margin: 10%;
+  width: 80%;
+}
+}
+
+}
+@media only screen and (max-width: 390px){ /*Responsive a 390px iPhone 12PRO*/
+body{
+  background: blue;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+header {
+  background: rgb(74, 190, 236);
+  /* position: fixed; */
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+.one-third {
+  margin: 10%;
+  width: 80%;
+}
+.one-third h3 {
+  font-weight: 600;
+}
+.left-col {
+  margin: 10%;
+  width: 80%;
+}
+.sidebar {
+  width: 80%;
+}
+.orden-portafolio{
+    flex-direction: column-reverse;
+}
+.one-third-padding {
+  margin: 10%;
+  width: 80%;
+}
+}
