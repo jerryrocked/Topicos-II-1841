@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es-la">
+<html>                                                                                                    
+<head>
+	<meta charset="utf-8">  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estil.css"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  
+  <!--FAVICON-->
+  <link rel="icon" type="image/vnd.microsoft.icon" href="img/pics/tree.png">
+  <!--TITULO-->
+	<title>Datos contaminantes</title>
+
+</head>
+<body>
+  <!-- MAIN WRAPPER   codeshare.io-->
+  <div id="cabecera">
+    <!-- BANNER CABECERA -->
+  <div id="banner-cabecera">
+		<header>
+      <div id="header-inner"> <!-- ENCABEZADO -->
+        <a href="https://planetasostenible.co/" id="logo"> <!-- # ENLACE A MARCADORES  -->
+            <img src="img/pics/LogoPlaneta.png" alt="">
+        </a>
+        <nav> <!-- # SECCION DE NAVEGACION  -->
+          <a href="#" id="menu-icon"> <!-- # ENLACE AL INICIO  -->
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="index.html" class="current">
+              <!-- # ENLACE A LA PAGINA PRINCIPAL "SALVEMOS EL PLANETA"  -->
+              INICIO
+            </a>
+          </li>
+            <li>
+              <a href="quienesomos.html">
+                <!-- # ENLACE A QUIENÉS SOMOS  -->
+                Quienés Somos
+              </a>
+            </li>
+            <li>
+              <a href="datos.html">
+                <!-- # ENLACE A DATOS  -->
+                Datos
+              </a>
+            </li>
+            <li>
+              <a href="videos.html">
+                <!-- # ENLACE A VIDEOS  -->
+                Videos
+              </a>
+            </li>
+            <li>
+              <a href="CalendarioMundial.html">
+                <!-- # ENLACE A QATAR 2022  -->
+                Qatar 2022
+              </a>
+            </li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+        <!-- SLIDER -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="slider1">
+            <li><img src="img/slider/slider2.jpeg" alt=""></li>
+            <li><img src="img/slider/slider1.png" alt=""></li>            
+            <li><img src="img/slider/slider3.jpeg" alt=""></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    
+    <div class="clearfix-padding"></div>
+ 
+  <!--Sección Tablas-->
+  <div class="news" id="play">
+    <section class="title_c1">
+      5 Países más contaminantes de CO2 
+    </section>      
+  </div>
+
+  <!--Tabla de los 5 primeros paises mas contaminantes de dioxido de carbono-->
+  <table id="customers">
+    <tr>
+      <th>País</th>
+      <th>CO2 Totales Mt</th>
+      <th>CO2 Kg/1000$</th>
+    </tr>
+    <tr>
+      <td>China <img src="img/banderas/china.png" alt=""></td>
+      <td>11.680,416</td>
+      <td>0,51</td>
+    </tr>
+    <tr>
+      <td>Estado Unidos <img src="img/banderas/eeuu.png" alt=""></td>
+      <td>4.535,301</td>
+      <td>0,23</td>
+    </tr>
+    <tr>
+      <td>India <img src="img/banderas/India.png" alt=""></td>
+      <td>2.411,733</td>
+      <td>0,29</td>
+    </tr>
+    <tr>
+      <td>Rusia <img src="img/banderas/Rusia.png" alt=""></td>
+      <td>1.674,228</td>
+      <td>0,43</td>
+    </tr>
+    <tr>
+      <td>Japón <img src="img/banderas/Japón.jpeg" alt=""></td>
+      <td>1.061,774</td>
+      <td>0,21</td>
+    </tr>
+  </table>
+
+   <div class="clearfix-padding"></div>
+
+  <div class="news" id="play">
+    <section class="title_c1">
+      5 Países que más contaminan el océano 
+    </section>      
+  </div>
+
+  <!--Tabla de los 5 primeros que más contaminan el oceano-->
+  <table id="customers">
+    <tr>
+      <th>País</th>
+      <th>Millones de toneladas métricas al año</th>
+    </tr>
+    <tr>
+      <td>China <img src="img/banderas/china.png" alt=""></td>
+      <td>8,8</td>
+    </tr>
+    <tr>
+      <td>Indonesia <img src="img/banderas/indonesia.png" alt=""></td>
+      <td>3,2</td>
+    </tr>
+    <tr>
+      <td>Filipinas <img src="img/banderas/Filipinas.png" alt=""></td>
+      <td>1,9</td>
+    </tr>
+    <tr>
+      <td>Vietnam <img src="img/banderas/Vietnam.png" alt=""></td>
+      <td>1,8</td>
+    </tr>
+    <tr>
+      <td>Sri Lanka <img src="img/banderas/Sri Lanka .png" alt=""></td>
+      <td>1,6</td>
+    </tr>    
+  </table>
+
+  <div class="clearfix-padding"></div>
+
+  <!-- FOOTER -->
+  <footer class="second">
+    <p>
+      &copy; <a href="index.html">SalvemosElPlaneta.cl | Desarrollador: Fabian Valenzuela Rocco </a>
+    </p>
+  </footer>
+ 
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+
+</body>
+</html>
