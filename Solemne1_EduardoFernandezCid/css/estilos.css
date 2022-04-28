@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* estilos para la cabecera */
+header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+/* color dinamico para cuando pasemos por encima de texto*/
+#header-inner a {
+  color: rgb(24, 199, 18);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#header-inner a:hover {
+  color: rgb(0, 122, 0);
+}
+
+
+/* Estilos para el cuerpo de la pagina */
+body {
+  font-family: sans-serif;
+  margin: 10% auto;
+}
+
+/*estilos para el contendor que tiene dentro el slider */
+#wrapper {
+  background: rgb(11, 213, 216);
+  max-width: 80%;
+  margin: 0% auto;
+}
+
+/*estilos para el contendor que tiene dentro el slider */
+#banner-wrapper {
+  max-width: 80%;
+  margin: 80px auto;
+}
+
+/* Imagen del carrusel */
+#slider li img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* logo */
+header #logo img {
+  margin: 10px;
+  float: left;
+  width: 80px;
+}
+
+/* Configura imagenes de la pagina */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+/*Ini configura la seccion de Articulos o noticias */
+#menu-icon {
+  display: none;
+  font-size: 50px;
+}
+
+.one-third {
+  width: 30.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.left-col {
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%;
+}
+
+.clearfix-padding {
+  clear: both;
+  padding: 2%;
+}
+
+/*FIN configura la seccion de Articulos o noticias */
+
+
+/* Color tamaños y fuentes de los parrafos */
+p {
+  color: #003c42;
+  font-size: 160%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+/* Color tamaños y fuentes de los titulos */
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* FOOTER!! */
+/* Configurar el color y el tamaño del footer */
+footer {
+  background: #1b1b1b;
+  width: 100%;
+  overflow: auto;
+}
+
+/* Configura la posición de los iconos del footer */
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  padding: 4%;
+}
+
+/* Configura la posición del menu del footer */
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+}
+
+/* alineación del menu del footer */
+.footer-nav {
+  text-align: right;
+}
+
+/* Color y tamaño de fuente del menu del footer */
+.footer-nav a {
+  font-size: 100%;
+  color: #686c6d;
+  font-weight: 100;
+}
+
+/* Color dinamico para el menu del footer, cuando nos posicionamos arriba*/
+.footer-nav a:hover {
+  color: #f5f5f5;
+}
+
+/* alineación del iconos del footer */
+.social li {
+  display: inline;
+}
+
+/* Color y tamaño de los iconos del footer */
+.social i {
+  font-size: 420%;
+  margin: 0%;
+  padding: 5%;
+  color: #686c6d;
+}
+
+/* Color dinamico para los iconos del footer, cuando nos posicionamos arriba*/
+.social i:hover {
+  color: #f5f5f5;
+}
+
+/* alineación, margen y Color de bordes del ultimo footer */
+footer.second {
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  margin: 0;
+  background-color: rgb(36, 139, 16);
+}
+
+/* alineación, tamaño y Color  del ultimo footer */
+footer.second p,
+.second a {
+  text-align: center;
+  color: #fff;
+  font-size: 100%;
+  line-height: 155%;
+}
+
+/* Centro el video */
+#VideoMedio {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    background: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #header-inner a:hover {
+    color: rgb(216, 37, 37);
+  }
+
+  /*estilos para el contendor que tiene dentro el slider */
+  #wrapper {
+    background: rgb(6, 90, 58);
+    max-width: 80%;
+    margin: 0% auto;
+  }
+
+  /*estilos para el contendor que tiene dentro el slider */
+  #banner-wrapper {
+    max-width: 80%;
+    margin: 80px auto;
+  }
+
+  /* Sesiones de la pagina*/
+  .one-third {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* Parrafos */
+  p {
+    color: #bad9db;
+    font-size: 90%;
+    line-height: 90%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+  }
+
+  /* Color tamaños y fuentes de los titulos */
+  h3 {
+    font-size: 80%;
+    line-height: 80%;
+    font-weight: 300;
+    color: #2f19ac;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+  }
+
+  /* Footer */
+  .social i {
+    font-size: 200%;
+  }
+
+  .footer-nav {
+    text-align: center;
+  }
+
+  .social ul li {
+    width: auto;
+  }
+
+  .icon-text-icon,
+  .icon-text-text {
+    float: initial;
+    width: 90%;
+    line-height: 90%;
+    text-align: center;
+  }
+
+  /* Footer */
+}
