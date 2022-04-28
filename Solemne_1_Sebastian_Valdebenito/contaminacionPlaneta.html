@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>                                                                                                    
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/estil.css">  
+	<link rel="stylesheet" href="assets/css/jquery.bxslider.css">
+  <!-- Se importa codigo jquery y reemplazamos el anterior debido a problemas con el CDN que existia, ya que estaba roto -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<script src="assets/js/jquery.bxslider.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<title>Cuidemos el Planeta </title> 
+</head>
+<body>
+
+  <div id="wrapper">
+
+    <!-- BANNER -->
+    <div id="banner-wrapper">
+		<header id="headerCuidemosElPlaneta">
+        <div id="header-inner">
+          <a href="#" id="logo">
+            <img src="assets/img/logo.png" alt="">
+          </a>
+
+          <nav> <!-- # SECCION DE NAVEGACION  -->
+            <a href="#wrapper" id="menu-icon"> <!-- # ENLACE AL INICIO  -->
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="#wrapper" class="current">
+                  <!-- # ENLACE A LA PAGINA PRINCIPAL  -->
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#video-medioambiente">
+                  <!-- # ENLACE A Video  -->
+                  Video
+                </a>
+              </li>
+              <li>
+                <a href="#tablaContaminacionDioxido">
+                  <!-- # ENLACE Tabla Dióxido de Carbono  -->
+                  Tabla Dióxido de Carbono 
+                </a>
+              </li>
+              <li>
+                <a href="#tablaContaminacionOceanos">
+                  <!-- # ENLACE Tabla Contaminación Oceano  -->
+                  Tabla Contaminación Oceano
+                </a>
+              </li>
+         
+            </ul>
+          </nav>
+        </div>
+    </header>
+        <!-- SLIDER -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="slider1">
+            <li><img src="assets/img/slider1.jpg" alt=""></li>
+            <li><img src="assets/img/slider2.jpg" alt=""></li>
+            <li><a href="#video-medioambiente"><img src="assets/img/slider3.jpg" alt=""></a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+   
+
+
+    <div class="clearfix-padding" id="video-medioambiente"></div>
+
+    <section class="w-full mt-100">
+      <h3>¿Como cuidar el medio ambiente?</h3>
+      <iframe class="iframe-video" src="https://www.youtube.com/embed/nvUqnpicSd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!-- Se crea la clase w-full para utilizar el 100% del ancho -->
+    <section class="w-full mt-100" id="tablaContaminacionDioxido">
+      <h3>Países con más contaminación de Dióxido de carbono por habitante</h3>
+      <p>Los países y regiones que más contaminan el aire con dióxido de carbono suelen coincidir con algunas de las más pobladas como es el caso de Estados Unidos, la Unión Europea y China, que juntos emitieron el 51% de las emisiones CO2 de 2018 y donde su población representa alrededor del 42% del total mundial...</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Pais</th>
+            <th>% de Contaminacion</th>
+            <th>Bandera</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Se obtienen las imagenes desde un servicio externo que tiene almacenadas todas la imagenes por codigo de pais -->
+          <tr>
+            <td>1</td>
+            <td>Qatar</td>
+            <td>37,05</td>
+            <td><img src="https://flagcdn.com/28x21/qa.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Kuwait</td>
+            <td>23,49</td>
+            <td><img src="https://flagcdn.com/28x21/kw.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Emiratos Árabes Unidos</td>
+            <td>21,57</td>
+            <td><img  src="https://flagcdn.com/28x21/ae.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Alemania</td>
+            <td>9,7</td>
+            <td><img  src="https://flagcdn.com/28x21/de.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>China</td>
+            <td>7.72</td>
+            <td><img src="https://flagcdn.com/28x21/cn.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>UE28</td>
+            <td>6.97</td>
+            <td><img src="https://flagcdn.com/28x21/ck.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>España</td>
+            <td>6.09</td>
+            <td><img src="https://flagcdn.com/28x21/es.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Francia</td>
+            <td>5.2</td>
+            <td><img src="https://flagcdn.com/28x21/fr.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Argentina</td>
+            <td>4.74</td>
+            <td><img src="https://flagcdn.com/28x21/ar.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Mexico</td>
+            <td>3.93</td>
+            <td><img src="https://flagcdn.com/28x21/mx.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Brasil</td>
+            <td>2,35</td>
+            <td><img src="https://flagcdn.com/28x21/bz.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>India</td>
+            <td>1,83</td>
+            <td><img src="https://flagcdn.com/28x21/in.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Peru</td>
+            <td>1,74</td>
+            <td><img src="https://flagcdn.com/28x21/pe.png" alt=""></td>
+          </tr>
+          <tr>
+            <td colspan="4"><a title="Ir al sitio statista con la grafica original" href="https://es.statista.com/grafico/18151/emisiones-de-dioxido-de-carbono-por-persona/" target="_blank" class="">Fuente: Statista</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="w-full mt-100" id="tablaContaminacionOceanos">
+      <h3>Países que más contaminan los océanos</h3>
+      <p>La investigadora de la universidad de Georgia Jenna Jambeck analizó junto con su equipo la cantidad de plástico arrojado en los océanos y de qué países provenía.</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Pais</th>
+            <th>Toneladas Metricas Anuales</th>
+            <th>Bandera</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Se obtienen las imagenes desde un servicio externo que tiene almacenadas todas la imagenes por codigo de pais -->
+          <tr>
+            <td>1</td>
+            <td>China</td>
+            <td>8,8</td>
+            <td><img src="https://flagcdn.com/28x21/cn.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Indonesia</td>
+            <td>3,2</td>
+            <td><img src="https://flagcdn.com/28x21/id.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Filipinas</td>
+            <td>1,9</td>
+            <td><img  src="https://flagcdn.com/28x21/ph.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Vietnam</td>
+            <td>1,8</td>
+            <td><img  src="https://flagcdn.com/28x21/vn.png" alt=""></td>
+          </tr>
+          
+          <tr>
+            <td>5</td>
+            <td>Sri Lanka</td>
+            <td>1,6</td>
+            <td><img src="https://flagcdn.com/28x21/lk.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Egipto</td>
+            <td>1,0</td>
+            <td><img src="https://flagcdn.com/28x21/eg.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Tailandia</td>
+            <td>1,0</td>
+            <td><img src="https://flagcdn.com/28x21/th.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Malasia</td>
+            <td>0.9</td>
+            <td><img src="https://flagcdn.com/28x21/my.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Nigeria</td>
+            <td>0.9</td>
+            <td><img src="https://flagcdn.com/28x21/ng.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Bangladés</td>
+            <td>0,8</td>
+            <td><img src="https://flagcdn.com/28x21/bd.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Brasil</td>
+            <td>0,5</td>
+            <td><img src="https://flagcdn.com/28x21/br.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Estados Unidos</td>
+            <td>0,3</td>
+            <td><img src="https://flagcdn.com/28x21/eu.png" alt=""></td>
+          </tr>
+          <tr>
+            <td colspan="4"><a title="Ir al sitio statista con la grafica original" href="https://www.catorce6.com/2-uncategorised/18386-los-paises-que-mas-contaminan-los-oceanos" target="_blank" class="">Fuente: Statista</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+ 
+    
+   <div class="clearfix-padding"></div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper">
+
+      <div class="icon-text-text">
+        <ul class="social">
+          <li>
+            <a href="mailto:contact@faztweb.com">
+              <i class="fa fa-envelope-o"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://facebook.com/fazttech">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://twitter.com/fazttech">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://youtube.com/fazttech">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="clearfix-padding"></div>
+  <footer class="second">
+    <p>
+      &copy; <a href="http://faztweb.com">FaztWeb.com</a>
+    </p>
+  </footer>
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      
+    });
+  </script>
+
+</body>
+</html>
