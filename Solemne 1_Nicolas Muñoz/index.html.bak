@@ -15,7 +15,8 @@
 
 
 
-	<h1> Contaminacion en el planeta </h1> <!--Cuerpo -->
+	<h1> <center> Contaminacion en el planeta </center> </h1> <!--Cuerpo -->
+	<hr size="8px" color="black" />
 	<section class="one-third" id="skills">
       <h3> Contaminación de chocolates Kinder: Suman 151 casos de salmonela en Europa </h3><!--Inicio Articulos -->
 	  <center><img src="img/kinder.jpeg" lt="" width="600" height="400" /></center>
@@ -31,9 +32,11 @@
 	  <center><img src="img/co2.jpg" lt="" width="600" height="400" /></center>
       <p>Las emisiones de CO2 tienen que ser frenadas de aquí a 2025 para que el futuro de la Humanidad sea “viable”, de acuerdo a un informe del grupo de expertos de la ONU sobre cambio climático (IPCC) divulgado este lunes.Para que el calentamiento del planeta no genere cambios irreversibles, solo quedan tres años para que esas emisiones se estabilicen, y luego empiecen a caer, según ese Panel Intergubernamental sobre el Cambio Climático (IPCC). Hay que abandonar el carbón, y reducir en al menos un 60% el uso del petróleo, y del 70% en el caso del gas, de aquí a 2050, según el informe de expertos.Si no se consiguen desarrollar técnicas de captura de carbono, el carbón debería ser abandonado totalmente, el uso del petróleo debería ser reducido en al menos 60% y el gas en al menos 70% de aquí a 2050, respecto a los niveles de 2019. “Casi toda la producción mundial de electricidad debería provenir de fuentes con cero o baja emisión de carbono”, estima el IPCC.Solamente el 10% de la electricidad producida en el mundo en 2021 proviene de la energía solar o eólica, calculan expertos del sector independientes.Los hogares que representan el 10% con más ingresos en el mundo acumulan el 45% de las emisiones de gases de efecto invernadero, señala el IPCC.</p>
     </section> <!--Fin Articulos -->
+	<hr size="8px" color="black" />
 <!--Video youtube -->
-	<div style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zeLIGu8l9OY/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
-	<table border style="margin: 0 auto;" width="70%" align="center"> <!--Tabla 1: Paises mas contaminantes -->
+	<br><div style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zeLIGu8l9OY/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+	<hr size="8px" color="black" />
+	<br><table border style="margin: 0 auto;" width="70%" align="center"> <!--Tabla 1: Paises mas contaminantes -->
 		<tr> <td colspan="3"> <center><h3>Tabla 1: Paises mas contaminantes</h3><h5>Cantidad en millones de toneladas de CO2</h5></td> <tr>
 		<th>Pais</th><th>Cantidad</th><th>Bandera</th>
 		<tr align="center"><td>China</td><td>9899,3</td><td><img src="img/cn.png" lt="" width="150" height="100" /></td></tr>
@@ -48,7 +51,7 @@
 		<tr align="center"><td>Canadá</td><td>517,7</td><td><img src="img/ca.png" lt="" width="150" height="100" /></td></tr>
 
 	</table>
-	
+	<hr size="8px" color="black" />
 	<table border style="margin: 0 auto;" width="70%" align="center"> <!--Tabla 2: Paises mas contaminantes de oceanos -->
 		<tr> <td colspan="3"> <center><h3>Tabla 2: Paises que mas contaminan los oceanos</h3><h5>Cantidad en millones de toneladas metricas de desechos en oceanos</h5></td> <tr>
 		<th>Pais</th><th>Cantidad</th><th>Bandera</th>
