@@ -1,0 +1,254 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    line-height:120%;
+    font-size:16px;
+    text-align: left;
+    padding-top: 103px;
+}
+
+
+/* #carouselExampleDark{
+    width: 1920px;
+} */
+
+.carousel-caption h1{
+    color: #fff;
+    font-size: 5em;
+
+
+}
+.carousel-caption h2{
+    color: #fff;
+    font-size: 5em;
+
+
+}
+.carousel-caption p{
+    color: #fff;
+
+}
+
+#promociones{
+    width: auto;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top: 100px;
+
+}
+.mt-100{
+    margin-top:100px;
+}
+h2{
+    text-align: center;
+    font-size: 3em;
+
+    font-weight: 700;
+    color: #1AB7EA;
+}
+
+#productos p{
+    text-align: center;
+       margin: 1em 0 4em 0;
+
+} 
+
+#promociones h2{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+#promociones p{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+#rrss{
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 10px 0;
+    color: #1AB7EA;
+    
+}
+#rrss p{
+   color: #1AB7EA;
+   text-align: center;
+
+    
+}
+
+footer{
+padding: 50px 0 50px 0;
+background-color: #131418;
+color: #fff;
+
+}
+#Copyright{
+    text-align: center;
+    margin: 50px 0 -30px 0;
+}
+#dato-de-contacto{
+    text-align: right;
+
+}
+.mapouter{
+    margin: 0 0 0px 0;
+}
+#contacto h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+#contact{
+    margin-bottom: 100px;
+    color: #1AB7EA;
+}
+#preguntaf{
+    text-align: center;
+    margin: 0 0 5em;
+}
+
+#preguntas-frecuentes{
+    padding:0 0 100px 0;
+}
+.divider{
+    justify-content: center;
+}
+#promociones{
+    padding:100px 0 20px 0;
+}
+#boton-promo{
+    margin: 20px 0 100px 0;
+}
+	
+.container-rrss{
+    width: 60%;
+    margin: 0 auto;
+}
+.iconos-rrss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+
+}
+.iconos-rrss li{
+    list-style: none;
+}
+.iconos-rrss li a{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 3em;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.iconos-rrss li a:hover{
+    transform: scale(1.2);
+}
+
+/*element-before*/
+
+.iconos-rrss li a::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    transform: scale(1);
+    top:0;
+    left: 0;
+    transition: .5s;
+}
+
+.iconos-rrss li a:hover::before{
+    transform: scale(0);
+}
+
+.iconos-rrss li:nth-child(1) a,
+.iconos-rrss li:nth-child(1) a::before{
+    background: #3b5999;
+}
+
+.iconos-rrss li:nth-child(2) a,
+.iconos-rrss li:nth-child(2) a:before{
+    background: #E4405F;
+}
+
+.iconos-rrss li:nth-child(3) a,
+.iconos-rrss li:nth-child(3) a:before{
+    background: #1DA1F2;
+}
+
+.iconos-rrss li:nth-child(4) a,
+.iconos-rrss li:nth-child(4) a:before{
+    background: #21759B;
+}
+
+/*efecto hoover botonoes*/
+
+.iconos-rrss li:nth-child(1) a:hover{
+    background: #fff;
+    border: 2px dashed #3b5999;
+    color: #3b5999;
+}
+
+.iconos-rrss li:nth-child(2) a:hover{
+    background: #fff;
+    border: 2px dashed #E4405F;
+    color: #E4405F;
+}
+
+.iconos-rrss li:nth-child(3) a:hover{
+    background: #fff;
+    border: 2px dashed #1DA1F2;
+    color: #1DA1F2;
+}
+
+.iconos-rrss li:nth-child(4) a:hover{
+    background: #fff;
+    border: 2px dashed #21759B;
+    color: #21759B;
+}
+#iconos-redes h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+#iconos-redes{
+    padding: 150px 0 200px 0;
+}
+#iconos-redes li p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 1920px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 1920px;
+}
