@@ -1,0 +1,534 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header #Logo img {
+    margin: 15px;
+    float: left;
+    width: 125px;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+/* Diseño de Botones que redireccionan videos o pdf externos*/
+.button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #A1BC00;
+   
+}
+.button:hover{
+    background-color: #5C7000;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+header{
+    background-color: #A1BC00;
+}
+
+header .Logotipo{
+    margin: 0;
+    padding: 25px 40px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header a{
+    font-size: 20px;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Cambio de tonalidad a la hora de pasar el cursos sobre header*/
+header a:hover{
+    color:#5C7000;
+}
+
+/* Destacador en H2*/
+.destacador{
+    color:#43A52F; }
+
+/* Background-image: linear-gradient permite una transición progresiva entre dos o más colores a lo largo de una línea recta*/
+#Slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/sequia-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Slider h1{
+    color: white;
+}
+
+#cverde .container{
+    text-align: justify;
+    padding: 150px 12px;
+}
+
+#cverde h2{
+    text-align: center;
+}
+
+#Copas-ganadas {
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#Copas-ganadas .container{
+   padding: 120px 12px;
+}
+
+#Copas-ganadas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#Copas-ganadas p{
+    display: none;
+}
+
+#Copas-ganadas .copa{
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+/* first-child representa el primer elemento entre un grupo de elementos hermanos.  */
+.copa:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/Gota.jpg")
+}
+
+/* nth-child coincide con uno o más elementos en función de su posición (x) entre un grupo de hermanos.  */
+.copa:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/contaminacion.jpg")
+}
+.copa:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/desforestacion.jpg")
+}
+
+#ambiental .container{
+    text-align: justify;
+    padding: 100px 12px;
+}
+#ambiental h2{
+    text-align: center;
+}
+
+#asignatura .container{
+    text-align: justify;
+    padding: 10px 12px;
+}
+#asignatura h2{
+    text-align: center;
+}
+
+#economia .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#economia li{
+    margin:  16px 0px;
+    font-weight: bold;
+}
+
+
+#bolsa .container{
+    text-align: justify;
+    padding: 100px 12px;
+}
+
+#bolsa h2{
+    text-align: center;
+}
+
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+}
+
+.Form{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white ;
+    
+}
+
+.Form h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.coment{
+    width: 400PX;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    display:block;
+   
+    
+}
+
+.Form p{
+    height: 100%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    box-shadow: 7px 13px 37px rgb(35, 35, 35);
+}
+
+.Font a{
+    color: white;
+    text-decoration: none;
+}
+
+.Font a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Form .bcoment{
+    width: 200px;
+    background-color: #1f53c5;
+    border: 4;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+Form .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Diseño de tabla  */
+.table{
+    border: 1px solid;
+    background-color: #E5E8EB;
+    text-align:center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table td:hover{
+    background-color: #A1BC00;
+}
+
+
+/* Diseño responsive */
+@media (min-width:720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .boton{
+        font-weight: 100;
+        font-size: 56px;
+        text-align: center center;
+        color: #1f53c5;
+        border: solid 2px #31a6ff;
+        border-radius:  50px;
+        padding: 10px 80px;
+    }
+
+    #cverde .container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 200px 12px;
+    }
+
+    #cverde .texto{
+        width: 50%;
+        text-align: justify;
+        max-width: 800px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #cverde  .img-container{
+        background-image:url("../img/casaverde.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        
+    }
+
+    #Copas-ganadas .copas{
+        display: flex;
+        justify-content: center;
+    }
+   
+    #Copas-ganadas p{
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    #Copas-ganadas h3{
+        margin-top: 0;
+        
+    }
+    #Copas-ganadas .copas{
+        padding: 50px;
+    }
+    
+    #ambiental .container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 200px 12px;
+    }
+    #ambiental .texto{
+        width: 50%;
+        text-align: justify;
+        max-width: 800px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #ambiental  .img-container{
+        background-image:url("../img/educacion.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #asignatura .container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 200px 12px;
+    }
+    #asignatura .texto{
+        width: 50%;
+        text-align: justify;
+        max-width: 800px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #asignatura  .img-container{
+        background-image:url("../img/escuela.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #bolsa .container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 200px 12px;
+    }
+    #bolsa .texto{
+        width: 50%;
+        text-align: justify;
+        max-width: 800px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #bolsa  .img-container{
+        background-image:url("../img/sabias-Que1.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    #economia .container{
+        text-align: initial; 
+        
+    }
+    #economia ul{
+        margin-left: 100px;
+    }
+    .videos{
+        display: flex;
+        
+    }
+    .icon-text-icon {
+        float:left;
+        width: 35%;
+        padding: 4%;
+    }
+    
+    .icon-text-text {
+        float: right;
+        width: 60%;
+        padding: 4% 4% 2% 0%;
+    }   
+    .footer-nav {
+        text-align: left;
+    }
+    .footer-nav a {
+        font-size: 100%;
+        color: #004F92;
+        font-weight: 300;
+    }
+    
+    .footer-nav a:hover {
+        color: red;
+    }
+    .social li {
+        display: inline;
+    }
+    .social i {
+        font-size: 400%;
+        margin: 0%;
+        padding: 5%;
+        color: #004F92;
+    }
+    
+    .social i:hover {
+        color: red;
+    }
+    .clearfix-padding {
+        clear:both;
+    }
+    footer.second {
+        text-align: center;
+        margin: 0;
+    }
+    
+    footer.second p, .second a {
+        text-align: center;
+        color: #004F92;
+        font-size: 100%;
+        line-height: 155%;
+    }
+ 
+    /*diseño de tabla responsive */
+    .table{
+        border: 1px solid;
+        background-color: #E5E8EB;
+        text-align:center;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .table td{
+        border: 1px solid;
+        text-align: center;
+    }
+    
+    .table td:hover{
+        background-color: #A1BC00;
+    }
+    
+    /* diseño de imagen referencia a página externa "qatar" */
+    .qatar{
+        display: block;
+        margin:  0 auto;
+        max-width: 50%;
+        height: auto;
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}
+
+    
+
+

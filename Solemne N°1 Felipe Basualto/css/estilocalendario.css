@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header #Logo img {
+    margin: 15px;
+    float: left;
+    width: 125px;
+}
+header{
+    background-color: #A1BC00;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+}
+header a{
+    font-size: 20px;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+header a:hover{
+    color:#5C7000;
+}
+h2{ font-size: 2.7em;}
+
+#fasegrupo h2{
+    text-align: left;
+    display: flex;
+}
+
+img {
+    display: block;
+    margin:  0 auto;
+    max-width: 50%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+
+
+
