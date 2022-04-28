@@ -1,14 +1,13 @@
-//Script propio, desarrolladocon el proposito de fijar estilo css que indica la sección
+//Script propio, desarrollado con el proposito de fijar estilo css que indica la sección
 //a la que se le dió clic, dejando marcada la opción con un color y estilo diferente
 
 //Intento escribir código en ingles como practica, aún me encuentro perfeccionando esto.
-
 
 //agrego listener al window del navegador, en cuanto el documento este cargado se ejecuta el script
 window.addEventListener("load", function () {
 
   //declaro estructura de datos con opciones del menu
-  const optionsMenu = ["HOME", "ACERCA DE", "SERVICIOS", "GALERÍA", "CONTACTO"];
+  const optionsMenu = ["HOME", "ACERCA DE", "ARTICULOS", "ESTADISTÍCAS", "CONTACTO"];
 
   //accedo a elementos del dom y guardo referencia en variables
   const mobileOptions = document.getElementById("mobile-options");
