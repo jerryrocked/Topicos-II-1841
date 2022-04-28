@@ -1,0 +1,161 @@
+/* Dispositivos Desktop */
+/* CSS Extras
+    flexbox
+    medidas en em
+    medidas en vw
+    display block y display none
+    incorporación de tipografias online
+*/
+body {
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    text-align: center;
+}
+
+header {
+    font-family: 'Bungee Shade', cursive;
+    margin: 1em 2em;
+    font-size: 4em;
+    text-align: center;
+    color:darkcyan;
+}
+
+.contain-img {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contain-img img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 2em;
+    font-family: 'Bungee Shade', cursive;
+    color:darkolivegreen;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.desktop {
+    display: block;
+    margin: 1em auto;
+}
+
+.mobile {
+    display: none;
+    margin: .5em auto;
+}
+
+#indicadores {
+    color: whitesmoke;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#calendario {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#calendario img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+#indicadores h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 0;
+}
+
+.columna {
+    border: 1px dashed gray;
+    width: 100%;
+}
+
+.ranking {
+    width: 45vw;
+    background-color:cadetblue;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.titulo {
+    color: gray;
+    width: auto;
+    height: 50px;
+    display: block;
+}
+
+.bandera {
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+footer {
+    background-color: slategray;
+    height: 5em;
+    width: 100vw;
+    color:whitesmoke;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qatar {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.qatar img {
+    width: 100%;
+    height: auto;
+}
+/* Dispositivos Mobiles */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #indicadores, #calendario {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .ranking {
+        width: 95vw;
+    }
+
+    footer {
+        height: 3em;
+    }
+}
+
